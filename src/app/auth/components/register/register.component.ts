@@ -14,7 +14,7 @@ import { RouterLink } from '@angular/router'
 })
 export class RegisterComponent {
   registerForm = this.fb.nonNullable.group({
-    userName: ['', Validators.required],
+    username: ['', Validators.required],
     email: ['', Validators.required],
     password: ['', Validators.required],
   })
