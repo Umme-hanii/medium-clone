@@ -4,12 +4,13 @@ import { Store } from '@ngrx/store'
 
 import { register } from '../../store/actions'
 import { RegisterRequestInterface } from '../../types/registerRequest.interface'
+import { RouterLink } from '@angular/router'
 
 @Component({
   selector: 'mc-register',
   templateUrl: './register.component.html',
   standalone: true,
-  imports: [ReactiveFormsModule],
+  imports: [ReactiveFormsModule, RouterLink],
 })
 export class RegisterComponent {
   registerForm = this.fb.nonNullable.group({

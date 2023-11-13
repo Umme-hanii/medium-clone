@@ -28,3 +28,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 Installed @ngrx/store using the following command
 npx -p @angular/cli@15 ng add @ngrx/store
+
+Add Redux DevTools Extension to Chrome or your Browser
+Install Redux DevTools using the following command
+npx -p @angular/cli@15 ng add @ngrx/store-devtools
