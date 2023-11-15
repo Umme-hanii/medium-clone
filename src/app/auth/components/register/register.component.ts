@@ -1,10 +1,10 @@
 import { Component } from '@angular/core'
 import { FormBuilder, Validators, ReactiveFormsModule } from '@angular/forms'
 import { Store } from '@ngrx/store'
+import { RouterLink } from '@angular/router'
 
 import { register } from '../../store/actions'
 import { RegisterRequestInterface } from '../../types/registerRequest.interface'
-import { RouterLink } from '@angular/router'
 
 @Component({
   selector: 'mc-register',
